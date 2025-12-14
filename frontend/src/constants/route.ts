@@ -1,23 +1,14 @@
 export const ROUTE_PATH = {
-  HOME: '/',
-  AUTH: {
-    LOGIN: '/login',
-    LOGOUT: '/logout',
-  },
-  DASHBOARD: {
-    INDEX: '/dashboard',
-  },
-  REPORT: {
-    INDEX: '/report',
-    REPORT1: '/report/report1',
-    REPORT2: '/report/report2',
-  },
-  SYSTEM: {
-    INDEX: '/system',
-  },
-  DEMO: {
-    INDEX: '/demo',
-    TABLE: '/demo/demo-table',
-    FORM: '/demo/demo-form',
-  },
-};
+	HOME: '/',
+	ABOUT: 'about',
+	ALL_EVENTS: 'all-events',
+	DETAIL_EVENT: 'detail-event',
+	AUTH: {
+		LOGIN: '/login',
+		SIGNUP: '/sign-up',
+	},
+	DASHBOARD: {
+		INDEX: '/dashboard',
+		ADD_NEW: '/dashboard/add-new',
+	},
+}
