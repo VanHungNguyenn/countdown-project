@@ -150,7 +150,7 @@
   @apply h-10 whitespace-nowrap px-2 text-left align-middle font-medium text-foreground
          flex items-center 
          [&:has([role=checkbox])]:pr-0 
-         [&>[role=checkbox]]:translate-y-[2px];
+         *:[[role=checkbox]]:translate-y-0.5;
 }
 
 .atable-cell {
