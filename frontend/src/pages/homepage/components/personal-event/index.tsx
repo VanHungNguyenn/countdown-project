@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 const PersonalEvent = () => {
   return (
     <div className="py-10 md:py-16">
@@ -13,12 +15,12 @@ const PersonalEvent = () => {
             Add your own events and get timely reminders.
           </p>
 
-          <button
+          <Button
             type="button"
             className="mt-6 flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-11 px-6 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:opacity-90"
           >
             <span className="truncate">Add Personal Event</span>
-          </button>
+          </Button>
         </div>
 
         {/* Right image */}
