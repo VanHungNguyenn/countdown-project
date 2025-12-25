@@ -19,7 +19,7 @@ const NAV_ITEMS = [
 
 const Header = () => {
 	return (
-		<div className='fixed top-0 left-0 right-0 bg-white border-b border-solid border-black/10 dark:border-white/10 shadow-sm z-100'>
+		<div className='fixed top-0 left-0 right-0 bg-white border-b border-solid border-black/10 dark:border-white/10 shadow-sm z-100 pr-[var(--removed-body-scroll-bar-size)]'>
 			<div className='max-w-7xl mx-auto flex items-center justify-between whitespace-nowrap px-4 py-4'>
 				<Link to={ROUTE_PATH.HOME}>
 					<div className='flex items-center gap-4 text-[#181111] dark:text-white'>
